@@ -1,3 +1,13 @@
+body {
+background-color:#e3d3e3;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'VT323', monospace;
+  font-size: 100px;
+}
+
 #game div {
   border: 1px solid black;
   border-radius: 30px;
@@ -7,12 +17,11 @@
   display: inline-block;
 }
 
-body {
-background-color:#e3d3e3;
-}
-
-h1 {
+#start {
+  height: auto;
+  color: #5c69f2;
   text-align: center;
   font-family: 'VT323', monospace;
   font-size: 100px;
+  position: relative;
 }
